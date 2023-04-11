@@ -12,7 +12,8 @@ class Card
     public:
 	Card (int num,string sign_);
 	string get_sign();
-	int get_number();	  
+	int get_number();
+    string to_String();
 };
 }
 
